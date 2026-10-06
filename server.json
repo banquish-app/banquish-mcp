@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "space.banquish/banquish",
+  "title": "Banquish",
+  "description": "Answer with the live web: compose live parts of real pages into a Workspace in the Banquish Mac app.",
+  "version": "0.1.0",
+  "websiteUrl": "https://banquish.space",
+  "repository": {
+    "url": "https://github.com/banquish-app/banquish-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "banquish-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

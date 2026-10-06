@@ -1,0 +1,34 @@
+{
+  "name": "banquish-mcp",
+  "version": "0.1.0",
+  "description": "Banquish's MCP server for any MCP client: compose live parts of real pages into a Workspace in the Banquish app for macOS.",
+  "mcpName": "space.banquish/banquish",
+  "type": "module",
+  "bin": {
+    "banquish-mcp": "bin/banquish-mcp.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "banquish",
+    "browser",
+    "live-web",
+    "macos"
+  ],
+  "homepage": "https://banquish.space",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banquish-app/banquish-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/banquish-app/banquish-mcp/issues"
+  },
+  "author": "GeonHyeok Boo <hello@banquish.space> (https://banquish.space)",
+  "license": "MIT"
+}
