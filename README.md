@@ -6,13 +6,13 @@ Banquish is a Mac app (Apple silicon) that lets your agent answer with the live 
 
 ## Use it
 
-Install the Banquish app first, from [banquish.space](https://banquish.space) (download coming soon) or with Homebrew (coming soon):
+Install the Banquish app first, from [banquish.space](https://banquish.space) or with Homebrew:
 
 ```
 brew install --cask banquish-app/tap/banquish
 ```
 
-Open Banquish once. For Claude Code, Codex and Claude Desktop, its **Connect your agent** card sets everything up with one click, and Claude Code users can add the [Banquish plugin](https://github.com/banquish-app/banquish-plugin). For any other client, under Connect your agent open **Any other MCP client** and click **Copy**: that installs the shim this package runs, and copies a configuration you can use as it is. Or give the client this package:
+Open Banquish once: each launch installs `~/.banquish/bin/banquish`, the shim this package runs. For Claude Code, Codex and Claude Desktop, its **Connect your agent** card sets everything up with one click, and Claude Code users can add the [Banquish plugin](https://github.com/banquish-app/banquish-plugin). For any other client, under Connect your agent open **Any other MCP client** and click **Copy** for a configuration you can use as it is. Or give the client this package:
 
 ```json
 {
