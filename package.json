@@ -1,6 +1,6 @@
 {
   "name": "banquish-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Banquish's MCP server for any MCP client: compose live parts of real pages into a Workspace in the Banquish app for macOS.",
   "mcpName": "space.banquish/banquish",
   "type": "module",
@@ -8,8 +8,14 @@
     "banquish-mcp": "bin/banquish-mcp.js"
   },
   "files": [
-    "bin"
+    "bin",
+    "lib",
+    "tools.json"
   ],
+  "scripts": {
+    "test": "node --test",
+    "export-tools": "node scripts/export-tools.mjs"
+  },
   "engines": {
     "node": ">=18"
   },

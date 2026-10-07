@@ -3,7 +3,7 @@
   "name": "space.banquish/banquish",
   "title": "Banquish",
   "description": "Answer with the live web: compose live parts of real pages into a Workspace in the Banquish Mac app.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://banquish.space",
   "repository": {
     "url": "https://github.com/banquish-app/banquish-mcp",
@@ -14,7 +14,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "banquish-mcp",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "runtimeHint": "npx",
       "transport": {
         "type": "stdio"
